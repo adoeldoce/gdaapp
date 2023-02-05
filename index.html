@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.6.3.js"></script>
+    <script src="main.js"></script>
+    <title>Projekt aplikacji internetowej komunikacji miejskiej miasta Gdańska korzystając z publicznego API ZTM Gdańsk</title>
+</head>
+<body id="index">
+    <h1>Projekt aplikacji internetowej komunikacji miejskiej miasta Gdańska korzystając z publicznego API ZTM Gdańsk</h1>
+    <div class="container">
+        <div id="data"></div>
+        <div id="komunikaty"></div>
+        <section id="tramwaje">
+            <h2>Linie Tramwajowe</h2>
+            <div id="tram"></div>
+            <div style="clear: both"></div>
+        </section>
+        <section id="autobusy">
+            <h2>Linie autobusowe</h2>
+            <div id="bus"></div>
+            <div style="clear: both"></div>
+        </section>
+        <section id="autobusy nocne">
+            <h2>Linie nocne</h2>
+            <div id="nocne"></div>
+            <div style="clear: both"></div>
+        </section>
+        <section id="przystanki">
+            <div>
+            <h2>Przystanki Linii</h2>
+            <strong>Wybrana Linia:</strong>
+            </div>
+            <div id="linia"></div>
+            <div id="trasa-pierwsza-strona">
+            <ul>
+                <div id="kierunek1" class="kierunki"></div>
+                <ul id="pierwsza">
+                </ul></ul>
+            </div>
+            <div id="trasa-druga-strona">
+            <ul>
+            <div id="kierunek2" class="kierunki"></div>
+            <ul id="druga">  
+            </ul></ul>
+            <div style="clear: both"></div>
+            <ul id="stop"></ul>
+        </section>
+    </div>
+
+</body>
+</html>

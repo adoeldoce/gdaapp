@@ -1,0 +1,76 @@
+ul {
+    list-style-type: none ;
+}
+.timetable-line-body-time{
+    border: 1px solid #000;
+    height: auto;
+    width: auto;
+}
+.timetable-hour-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    background: #59595b;
+    color: #fff;
+    padding: 8px 0;
+    line-height: .9em; 
+    height: auto;
+}
+.timetable-min{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    align-items: center;
+    color: #000;
+    padding: 0 16px!important;    
+    list-style: none;
+    margin: unset;
+}
+
+.minute{
+    flex-basis: 46px;
+    display: inherit;
+    margin: unset;
+    color: #000;
+    list-style: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+}
+.timetable-time-hour{
+    display: flex;
+    flex-direction: row;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    border-bottom: 1px solid #ccc;
+    margin: unset;
+    list-style: none;}
+.container,.header{
+    width: 1600px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    min-height: 100px;
+    }
+.znak{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 46px;
+    line-height:100px;
+    margin-bottom: 50px;
+    float: left;
+    }
+.header-info{
+    text-align: center;
+    font-size: 40px;
+}
+.header{
+    border: 2px solid gray;
+}

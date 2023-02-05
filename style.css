@@ -1,0 +1,103 @@
+#tram,#nocne,#bus{
+    flex-basis: 50px;
+    min-height: 16px;
+    min-height: 16px;
+    margin: 5px;
+    text-align: center;
+    font-size: 16px;
+    
+}
+body
+{
+    position: relative;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 16px;
+}
+.routeShortNameTram, .routeShortNameNightBus, .routeShortNameBus{
+    float: left;
+    width: 30px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border: 3px solid gray;
+    float: left;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.routeShortNameTram:hover, .routeShortNameNightBus:hover, .routeShortNameBus:hover{
+    background-color: #D4D4D4;
+    color: black;
+    border: 3px solid black;
+}
+.routeShortNameTram.active,
+.routeShortNameBus.active,
+.routeShortNameNightBus.active {
+  background-color: #FF4444;
+}    
+.container{
+    width: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+
+template{
+    min-height: 50px;
+}
+#trasa-pierwsza-strona{
+float: left;
+width: auto;
+min-width: 400px;
+display: flex;
+}
+#trasa-druga-strona{
+float: left;
+width: auto;
+min-width: 400px;
+display: flex;
+}
+#linia {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 46px;
+    line-height:100px;
+    display:none;
+}
+.departure{
+    width: 900px;
+}
+.stopName
+{
+margin-bottom: 10px;
+border-bottom: 1px solid gray;
+list-style-type: square;
+list-style-position: inside;
+width: auto;
+cursor: pointer;
+background-color: antiquewhite;
+background-image: linear-gradient(#1095c1,#1095c1);
+background-size: 0 100%;
+background-repeat: no-repeat;
+transition: .4s;
+font-weight: bold;
+}
+section{
+    border-bottom: 2px solid gray;
+
+}
+.stopName:hover{
+    background-color: #D4D4D4;
+    color: black;
+    background-size: 100% 100%;
+}
+.kierunki{
+    margin: 5px solid gray;
+    margin-bottom: 50px;
+    border: 1px solid gray;
+}
